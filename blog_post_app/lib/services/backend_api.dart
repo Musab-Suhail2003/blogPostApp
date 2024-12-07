@@ -4,7 +4,7 @@ import '../models/user.dart';
 import '../models/blog.dart';
 
 class ApiService {
-  final String baseUrl = 'http://localhost:3000/api'; // Adjust to your backend URL
+  final String baseUrl = 'http://10.0.2.2:5000/api'; // Adjust to your backend URL
 
   Future<List<User>> fetchUsers() async {
     try {

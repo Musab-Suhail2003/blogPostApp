@@ -1,3 +1,5 @@
+const Blog = require('../models/blogModel')
+
 const createBlogEntry = async (req, res) => {
     try {
       const { authorId, name, URL, article, tags, comments } = req.body;
